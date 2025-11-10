@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with: 
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -69,4 +71,11 @@ jobs:
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update by GitHub Actions at $(TZ=Asia/Shanghai date)" && git push)
+          
+          if ! (git diff --quiet && git diff --staged --quiet); then
+            git commit -m "Auto update by GitHub Actions at $(TZ=Asia/Shanghai date)"
+          fi
+
+          git pull --rebase --autostash origin master
+
+          git push origin master
