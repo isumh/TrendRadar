@@ -1,16 +1,11 @@
-DeepSeek
-梁文锋
+航空
+东航
+国航
+南航
 
-华为
-鸿蒙
-HarmonyOS
-任正非
-
-英伟达
-NVIDIA
-黄仁勋
-
-AMD
+ai
+!gai
+人工智能
 
 谷歌
 google
@@ -24,16 +19,26 @@ sora
 claude
 Anthropic
 
-ai
-!gai
-人工智能
+codebuddy
+iflow
+qoder
+
+MiniMax
+Kimi
+GLM
+DeepSeek
+
+英伟达
+NVIDIA
+GPU
+摩尔线程
+寒武纪
+
+AMD
 
 自动驾驶
 
 机器人
-
-国产
-中国
 
 芯片
 光刻机
@@ -53,11 +58,3 @@ ai
 宇宙
 飞船
 
-航空
-东航
-国航
-南航
-
-MiniMax
-Kimi
-GLM
