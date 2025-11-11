@@ -2,22 +2,22 @@
 东航
 国航
 南航
+海航
 
-ai
+AI
 !gai
 人工智能
+LLM
+大模型
 
-谷歌
-google
-gemini
-deepmind
-
-chatgpt
 openai
+chatgpt
 sora
+gemini
 
 claude
 Anthropic
+agent
 
 codebuddy
 iflow
@@ -27,6 +27,7 @@ MiniMax
 Kimi
 GLM
 DeepSeek
+qwen
 
 英伟达
 NVIDIA
@@ -34,27 +35,8 @@ GPU
 摩尔线程
 寒武纪
 
-AMD
-
-自动驾驶
-
-机器人
-
 芯片
 光刻机
 
-科技
-
-核能
-
-水电站
-雅鲁藏布江
-
-新质生产力
-
-月球
-登月
-火星
-宇宙
-飞船
-
+高考
++志愿
